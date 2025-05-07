@@ -1,0 +1,6 @@
+div#app::after {
+  content: "after";
+  @media screen {
+    background: red;
+  }
+}
